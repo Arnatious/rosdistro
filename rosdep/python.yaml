@@ -5319,6 +5319,9 @@ python3-lxml:
   openembedded: [python3-lxml@meta-python]
   rhel: ['python%{python3_pkgversion}-lxml']
   ubuntu: [python3-lxml]
+  osx:
+    pip:
+      packages: [lxml]
 python3-matplotlib:
   arch: [python-matplotlib]
   debian: [python3-matplotlib]
